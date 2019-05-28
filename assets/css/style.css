@@ -229,27 +229,38 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-
-  body {
-    background-color: #333;
+  nav {
+    width: 40%;
   }
 
-  .wrapper {
-    width: px;
+  #logo {
+    width: 60%;
   }
+
+  img.auth-image {
+    width: 40%;
+  }
+  
 }
 
 @media screen and (max-width: 640px) {
+    nav {
+      width: 100%;
+      text-align: center;
+    }
 
-  body {
-    background-color: #333;
+    #logo {
+      width: 100%;
+    }
+
+    img.auth-image {
+      width: 100%;
+    }
+    
+    .work {
+      width: 100%;
+    }
   }
-
-  .wrapper {
-    width: px;
-  }
-}
-
 
 
 
