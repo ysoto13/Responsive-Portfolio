@@ -219,12 +219,21 @@ body {
 
 @media screen and (max-width: 980px) {
 
-  body {
-    background-color: #333;
+  nav {
+    width: 40%;
+    text-align: center;
   }
 
-  .wrapper {
-    width: px;
+  #logo {
+    width: 25%;
+  }
+
+  img.auth-image {
+    width: 40%;
+  }
+
+  .main-section {
+    width: 70%;
   }
 }
 
