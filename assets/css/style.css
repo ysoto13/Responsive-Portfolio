@@ -249,6 +249,10 @@ body {
   img.auth-image {
     width: 40%;
   }
+
+  .main-section {
+    width: 85%;
+  }
   
 }
 
@@ -267,6 +271,10 @@ body {
     }
     
     .work {
+      width: 100%;
+    }
+
+    .main-section {
       width: 100%;
     }
   }
